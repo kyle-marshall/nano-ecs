@@ -9,7 +9,7 @@
     "game",
     "system"
   ],
-  "author": [
+  "contributors": [
     {
       "name": "Brandon Valosek",
       "email": "bvalosek@gmail.com",
@@ -21,13 +21,19 @@
       "email": "sww@eight45.net",
       "url": "http://eight45.net",
       "role": "mad forker"
+    },
+    {
+      "name": "Kyle Marshall",
+      "email": "captainmarshall1@gmail.com",
+      "url": "https://youlovetocode.com",
+      "role": "spoon"
     }
   ],
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "standard && tape test/*.js"
+    "test": "tape ./test/*.js"
   },
   "main": "index.js",
   "license": "MIT",
